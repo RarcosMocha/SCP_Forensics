@@ -1,0 +1,69 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+	"logo": {
+		"color": {
+				"1": "252",
+				"2": "100"
+			},
+		"type": "file",
+		"source":"~/.config/fastfetch/scp.txt"
+	},
+
+	"display": {
+		"color": {
+				"keys": "200"
+			},
+		"separator": " : "
+	},
+
+	"modules": [
+		{
+			"type": "custom",
+			"format": "SCP FOUNDATION"
+		},
+		{
+			"type": "custom",
+			"format": "FIELD  TERMINAL"
+		},
+		{
+			"type": "custom",
+			"format": "CLEARANCE LEVEL 3"
+		},
+		{	"type": "custom",
+			"format": ""
+		},
+
+		"os",
+		"host",
+		"kernel",
+		"uptime",
+
+		{
+			"type": "custom",
+			"format": ""
+		},
+
+		"cpu",
+		"memory",
+		"disk",
+
+		{
+			"type": "custom",
+			"format": ""
+		},
+
+		"shell",
+		"terminal",
+
+		{
+			"type": "custom",
+			"format": ""
+		},
+
+		{
+			"type": "custom",
+			"format": "STATUS : OPERATIONAL"
+		}
+	]
+}
